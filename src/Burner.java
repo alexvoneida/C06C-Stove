@@ -1,11 +1,13 @@
 
 public class Burner {
 	public enum Temperature {
-		BLAZING,
-		HOT,
+		COLD,
 		WARM,
-		COLD
+		HOT,
+		BLAZING
 	}
+	
+	
 	Temperature temperature;
 	Setting mySetting;
 	int timer;
@@ -57,10 +59,20 @@ public class Burner {
 	}
 	
 	public void updateTemperature() {
-		if (timer > 0) {
-			timer -= 1;
-			
+		timer -= 1;
+		if (timer <= 0) {
+			timer = TIME_DURATION;
+			if (temperature.ordinal() < mySetting.ordinal()) {
+				if (temperature.ordinal() < 3) {
+					temperature = Temperature.values()[temperature.ordinal() + 1];
+				}
+			} else if (temperature.ordinal() > mySetting.ordinal()) {
+				if (temperature.ordinal() > 0) {
+					temperature = Temperature.values()[temperature.ordinal() - 1];
+				}
+			}
 		}
+			
 	}
 
 }
