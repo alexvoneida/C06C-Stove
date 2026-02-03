@@ -72,7 +72,27 @@ public class Burner {
 				}
 			}
 		}
-			
+	}
+	
+	public void display() {
+		String temp;
+		switch (temperature) {
+			case Temperature.COLD:
+				temp = "cooool";
+				break;
+			case Temperature.WARM:
+				temp = "warm";
+				break;
+			case Temperature.HOT:
+				temp = "CAREFUL";
+				break;
+			case Temperature.BLAZING:
+				temp = "VERY HOT! DON'T TOUCH";
+				break;
+			default:
+				temp = "";
+		}
+		System.out.println("[" + mySetting.toString() + "]....." + temp);
 	}
 
 }
