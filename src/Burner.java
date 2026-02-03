@@ -62,13 +62,13 @@ public class Burner {
 		timer -= 1;
 		if (timer <= 0) {
 			timer = TIME_DURATION;
-			if (temperature.ordinal() < mySetting.ordinal()) {
+			if (temperature.ordinal() < mySetting.ordinal()) { // compare temperature and setting using the ordinal value for enums
 				if (temperature.ordinal() < 3) {
-					temperature = Temperature.values()[temperature.ordinal() + 1];
+					temperature = Temperature.values()[temperature.ordinal() + 1]; // increment temperature if not at max value
 				}
 			} else if (temperature.ordinal() > mySetting.ordinal()) {
 				if (temperature.ordinal() > 0) {
-					temperature = Temperature.values()[temperature.ordinal() - 1];
+					temperature = Temperature.values()[temperature.ordinal() - 1]; // decrement temperature if not at min value
 				}
 			}
 		}
@@ -76,7 +76,7 @@ public class Burner {
 	
 	public void display() {
 		String temp;
-		switch (temperature) {
+		switch (temperature) { // match output string to current temperature
 			case Temperature.COLD:
 				temp = "cooool";
 				break;

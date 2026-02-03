@@ -1,0 +1,72 @@
+commit 57f64b9f687cdc4caea223058dc31b1b61009619
+Author: alexvoneida <alexvoneida@gmail.com>
+Date:   Tue Feb 3 14:30:56 2026 -0700
+
+    display burner method
+
+commit 2d4b66b4482058e8938713d3c3692c9557d1ab13
+Author: Noah <179028287+nwm819@users.noreply.github.com>
+Date:   Tue Feb 3 14:27:54 2026 -0700
+
+    Filled displayStove()
+
+commit 6c3909a1f0ff35044fd6511da4e1b2b3fbd8945b
+Author: alexvoneida <alexvoneida@gmail.com>
+Date:   Tue Feb 3 14:21:07 2026 -0700
+
+    finished burner methods
+
+commit dbbe595e14346a93af36bdb3c9a959c0f2dfc8c9
+Author: alexvoneida <alexvoneida@gmail.com>
+Date:   Tue Feb 3 14:10:19 2026 -0700
+
+    burner methods
+
+commit abadb851447fbcf3bc133a3bef28864b858f4c9b
+Author: Noah <179028287+nwm819@users.noreply.github.com>
+Date:   Tue Feb 3 14:00:29 2026 -0700
+
+    Added methods and strings to Setting
+
+commit e5a28e9f0b5b7e4802cba3ef2f5c6734101afcc9
+Author: Noah <179028287+nwm819@users.noreply.github.com>
+Date:   Tue Feb 3 13:46:52 2026 -0700
+
+    Added Setting again
+
+commit 72147101137d6efa4ee28f214b13b905e13aef9e
+Author: Noah <179028287+nwm819@users.noreply.github.com>
+Date:   Tue Feb 3 13:45:49 2026 -0700
+
+    Added Setting Enum
+
+commit 70a37d60f582acd4ff4d5e933dc33702558c0fdf
+Merge: 858e566 b221568
+Author: Noah <179028287+nwm819@users.noreply.github.com>
+Date:   Tue Feb 3 13:43:55 2026 -0700
+
+    Merge branch 'main' of https://github.com/alexvoneida/C06C-Stove
+
+commit b22156865a017d52caa6d1c0ad2ad9fb496864a2
+Author: alexvoneida <alexvoneida@gmail.com>
+Date:   Tue Feb 3 13:36:02 2026 -0700
+
+    src folder
+
+commit 8d8edf0f151875a78c4748f4977ea5ec1bbb05b0
+Author: alexvoneida <alexvoneida@gmail.com>
+Date:   Tue Feb 3 13:33:54 2026 -0700
+
+    class setup
+
+commit 858e56623ca9a0699cb64aa59b7f794b2f7d6f57
+Author: Noah <179028287+nwm819@users.noreply.github.com>
+Date:   Tue Feb 3 13:33:35 2026 -0700
+
+    Added Setting enum
+
+commit 10e2c87f7ab844f173d871c4010f717ade4aa359
+Author: alexvoneida <alexvoneida@gmail.com>
+Date:   Tue Feb 3 13:25:22 2026 -0700
+
+    first commit
